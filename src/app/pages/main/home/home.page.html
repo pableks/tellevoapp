@@ -1,0 +1,28 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>TeLlevoApp</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-item>
+        <ion-icon slot="se" name="moon"></ion-icon>
+        <ion-label>Toggle Dark Theme</ion-label>
+        <ion-toggle 
+        
+        slot="end"
+                    [ngModel]="darkMode"
+                    (ionChange)="cambio()"></ion-toggle>
+                    <ion-content>
+                    
+                    </ion-content>
+    </ion-item>
+    
+</ion-list>
+<ion-button (click)="signOut()" >
+  Click me
+</ion-button>
+<app-map></app-map>
+</ion-content>
+
