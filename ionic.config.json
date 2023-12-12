@@ -1,0 +1,7 @@
+{
+  "name": "tellevotest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
